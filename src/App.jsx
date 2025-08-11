@@ -84,12 +84,12 @@ function App() {
         </button>
       </div>
       <a 
-        href="https://www.linkedin.com/in/rakeshjain12/"
+        href="https://tenor.com/search/jai-jinendra-gifs"
         target="_blank"
         className={`flex items-center absolute bottom-0 logo gap-5 pr-5 ${yes_clicked ? '' : 'hidden'}`}
       >
         <img src={dev_race_logo} alt="Thnx_my_dp" />
-        <p className="text-sm">Powered by <br/> <a href="">My_DP</a></p>
+        <p className="text-sm">Thank You <br/> <a href="https://tenor.com/search/jai-jinendra-gifs">My_DP</a></p>
       </a>
     </main>
   )
