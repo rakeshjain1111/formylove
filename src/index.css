@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #AA336A;
+}
+
+body {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pink-font {
+  color: var(--primary-color);
+}
+
+
+button {
+  border: 1px solid #ccc;
+  padding: 10px 69px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+@media (max-width: 768px) {
+  button {
+    padding: 10px 50px;
+  }
+}
+
+button:hover {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.secondary-btn {
+  background-color: white;
+  color: var(--primary-color);
+  z-index: 9999;
+}
+
+.logo {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  img {
+    width: 60px;
+    border-radius: 5px 0 0 5px;
+  }
+  p {
+    text-align: center;
+  }
+}
