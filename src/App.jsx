@@ -88,8 +88,8 @@ function App() {
         target="_blank"
         className={`flex items-center absolute bottom-0 logo gap-5 pr-5 ${yes_clicked ? '' : 'hidden'}`}
       >
-        <img src={dev_race_logo} alt="https://dev-race.com/" />
-        <p className="text-sm">Powered by <br/> <a href="https://www.linkedin.com/in/rakeshjain12/">RK Jain</a></p>
+        <img src={dev_race_logo} alt="Thnx_my_dp" />
+        <p className="text-sm">Powered by <br/> <a href="">My_DP</a></p>
       </a>
     </main>
   )
